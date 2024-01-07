@@ -46,7 +46,8 @@ body{
 .fireworks2,
 .fireworks3, 
 .fireworks4, 
-.fireworks5 {
+.fireworks5,
+.fireworks6 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,8 +86,8 @@ body{
     animation: fireworks 3s infinite;
 }
 .fireworks2 {
-  top: 50%;
-  left: 60%;
+  top: 55%;
+  left: 33%;
   animation-delay: 0.5s;
 }
 .fireworks3 {
@@ -96,13 +97,19 @@ body{
 }
 .fireworks4 {
   top: 70%;
-  left: 30%;
+  left: 70%;
   animation-delay: 1s;
 }
 .fireworks5 {
   top: 40%;
-  left: 20%;
+  left: 60%;
   animation-delay: 1.05s;
+}
+.fireworks6
+{
+  top: 20%;
+  left: 30%;
+  animation-delay: 0.5s;
 }
 
 @media only screen and (max-width: 1080px)
